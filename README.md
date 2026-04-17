@@ -46,7 +46,7 @@ The strongest current findings are:
 
 If you read only one file after this README, start with:
 
-- [SIMA_BERMAN_RESEARCH_BACKUP.md](./SIMA_BERMAN_RESEARCH_BACKUP.md)
+- [RESEARCH_LOG.md](./RESEARCH_LOG.md)
 
 This is the master research log and includes:
 - numbered searches
@@ -59,7 +59,7 @@ This is the master research log and includes:
 
 ### Core research log
 
-- [SIMA_BERMAN_RESEARCH_BACKUP.md](./SIMA_BERMAN_RESEARCH_BACKUP.md)
+- [RESEARCH_LOG.md](./RESEARCH_LOG.md)
   - full chronological research log
   - search index
   - evidence summaries
@@ -93,6 +93,15 @@ This is the master research log and includes:
 
 - [HOW_TO_CONTINUE_THIS_RESEARCH.txt](./HOW_TO_CONTINUE_THIS_RESEARCH.txt)
   - text version of the continuation guide
+
+- [TODO_ROADMAP.md](./TODO_ROADMAP.md)
+  - high-level summary of what was already done
+  - open problems
+  - practical roadmap for the next year
+
+- [FINDINGS_OVERVIEW.md](./FINDINGS_OVERVIEW.md)
+  - one-page consolidated findings table
+  - dates, status, relevance, and links to deeper documentation
 
 ### Summary / sharing documents
 
@@ -156,7 +165,43 @@ Sent outreach includes:
   - via official contact form
 
 Important current thread:
-- `JHI` replied and is now rechecking with `Kovel / Kowel` as the birthplace anchor
+- `JHI` completed a second recheck and did not find Sima's passport in their holdings
+- `JRI-Poland` acknowledged the inquiry and a substantive help-desk reply is still pending
+
+## Contacted Archives and Websites
+
+### Main archive contacts already used
+
+- `Mount Sinai Memorial Parks`
+  - website: `https://mountsinaiparks.org/`
+  - contact page: `https://mountsinaiparks.org/contact-us/`
+  - email: `info@mountsinaiparks.org`
+
+- `Jewish Historical Institute (JHI / ŻIH)`
+  - website: `https://www.jhi.pl/en`
+  - genealogy contact page: `https://www.jhi.pl/en/genealogy/contact-us`
+  - general contact page: `https://www.jhi.pl/en/contact`
+  - genealogy email: `familyheritage@jhi.pl`
+  - archive email: `archiwum@jhi.pl`
+
+- `JRI-Poland`
+  - website: `https://www.jri-poland.org/`
+  - contact form: `https://www.jri-poland.org/contact-us/`
+  - Polish Aliyah Passports project: `https://www.jri-poland.org/blog/polish-aliyah-passports/`
+  - passport search page: `https://www.jri-poland.org/jri-polish-aliyah-passports/`
+  - forum thread already posted: `https://forum.jri-poland.org/t/genealogy-inquiry-buxenbaum-family-poland-1935-immigration/22104`
+
+### Kovel-related outreach already used
+
+- `kovel.site@gmail.com`
+- `mali2109@gmail.com`
+- `shabo.pearlmuter@gmail.com`
+- `rub@netvision.net.il`
+- `shireshef@gmail.com`
+- `yaki@yaym.co.il`
+- `isr-weis@zahav.net.il`
+- `rachelziv94@gmail.com`
+- `navasag@gmail.com`
 
 ## Best Next Steps
 
@@ -175,7 +220,7 @@ This repository should be treated as the main tracking location for the entire i
 
 Recommended workflow:
 
-1. log every search and result in [SIMA_BERMAN_RESEARCH_BACKUP.md](./SIMA_BERMAN_RESEARCH_BACKUP.md)
+1. log every search and result in [RESEARCH_LOG.md](./RESEARCH_LOG.md)
 2. log every new reply in [RESEARCH_TRACKER.md](./RESEARCH_TRACKER.md)
 3. update the archive plan if the search direction changes
 4. keep family-facing summaries separate from the detailed research log

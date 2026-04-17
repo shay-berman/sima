@@ -175,6 +175,99 @@ a {
   color: var(--muted);
 }
 
+.family-layout {
+  display: grid;
+  gap: 1.25rem;
+  padding: 2rem 0 3rem;
+}
+
+.contact-card {
+  margin-bottom: 2rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.contact-list li {
+  color: var(--muted);
+}
+
+.search-card {
+  margin: 1rem 0 2rem;
+}
+
+.search-bar,
+.sidebar-search {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.search-bar input,
+.sidebar-search input {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.75rem 1rem;
+  font: inherit;
+  background: #fff;
+  color: var(--text);
+}
+
+.search-bar button,
+.sidebar-search button {
+  border: 1px solid var(--accent-dark);
+  background: var(--accent-dark);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.75rem 1rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.search-status {
+  margin-top: 0.8rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.search-status.compact {
+  font-size: 0.88rem;
+}
+
+.search-results {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.search-results.compact {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.search-result {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 0.9rem 1rem;
+  background: #fff;
+}
+
+.search-result h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.search-result p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .doc-layout {
   display: grid;
   grid-template-columns: 280px minmax(0, 1fr);
