@@ -179,3 +179,46 @@ Recommended workflow:
 2. log every new reply in [RESEARCH_TRACKER.md](./RESEARCH_TRACKER.md)
 3. update the archive plan if the search direction changes
 4. keep family-facing summaries separate from the detailed research log
+
+## GitHub Pages
+
+This repository now includes a lightweight GitHub Pages site based on the repository documentation.
+
+### Expected publish URL
+
+- `https://shay-berman.github.io/sima/`
+
+### Files used by the site
+
+- `index.html`
+- `docs.html`
+- `style.css`
+- `script.js`
+- `.github/workflows/pages.yml`
+
+The document pages load the Markdown files from this repository directly, so updates to the `.md` files will appear on the site after a new deployment.
+
+### How to enable GitHub Pages in GitHub
+
+1. Open the repository on GitHub.
+2. Go to `Settings`.
+3. Open `Pages`.
+4. Under `Build and deployment`, choose `GitHub Actions` as the source.
+5. Save if GitHub asks you to confirm the source.
+
+After that, every push to `main` should trigger the Pages workflow and publish the site.
+
+### How to update the site later
+
+1. Edit the Markdown files or the site files in the repository.
+2. Commit and push to `main`.
+3. GitHub Actions will redeploy the Pages site automatically.
+
+If you want to change the homepage content, edit:
+
+- `README.md`
+- `index.html`
+
+If you want to change the styling, edit:
+
+- `style.css`
