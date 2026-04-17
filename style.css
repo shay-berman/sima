@@ -175,6 +175,22 @@ a {
   color: var(--muted);
 }
 
+.contact-card {
+  margin-bottom: 2rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.contact-list li {
+  color: var(--muted);
+}
+
 .doc-layout {
   display: grid;
   grid-template-columns: 280px minmax(0, 1fr);

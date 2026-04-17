@@ -3,6 +3,53 @@
 Date: 2026-04-14
 Time: 09:04 Asia/Jerusalem
 
+## Table of Contents
+
+- [Header Summary](#header-summary)
+- [Executive Summary](#executive-summary)
+- [What The Family Still Needs To Find](#what-the-family-still-needs-to-find)
+- [Search 1 - Full local scan](#search-1---full-local-scan)
+- [Search 2 - First manual transcription](#search-2---first-manual-transcription)
+- [Search 3 - Broad Dukla surname pass](#search-3---broad-dukla-surname-pass)
+- [Search 4 - Enlarged rereading of key form](#search-4---enlarged-rereading-of-key-form)
+- [Search 5 - Refined surname and parent search](#search-5---refined-surname-and-parent-search)
+- [Search 6 - Sibling-name search](#search-6---sibling-name-search)
+- [Search 7 - Family testimony from Zohar](#search-7---family-testimony-from-zohar)
+- [Search 8 - Deep local search focused on Sima's birth family](#search-8---deep-local-search-focused-on-simas-birth-family)
+- [Search 9 - Women-only Dukla search](#search-9---women-only-dukla-search)
+- [Search 10 - Focused visual pass on local trees, photos, cards, and archive sheets](#search-10---focused-visual-pass-on-local-trees-photos-cards-and-archive-sheets)
+- [Search 11 - Final local anchor hunt in narrative and handwritten forms](#search-11---final-local-anchor-hunt-in-narrative-and-handwritten-forms)
+- [Search 12 - Parent-first Yad Vashem strategy](#search-12---parent-first-yad-vashem-strategy)
+- [Search 13 - Kovel / Nussbaum parent-first strategy](#search-13---kovel--nussbaum-parent-first-strategy)
+- [Search 14 - Structure-first no-surname strategy](#search-14---structure-first-no-surname-strategy)
+- [Search 15 - New family evidence: brother-photo anchor](#search-15---new-family-evidence-brother-photo-anchor)
+- [Search 16 - Buxenbaum-first Poland-wide Yad Vashem pass](#search-16---buxenbaum-first-poland-wide-yad-vashem-pass)
+- [Search 17 - Targeted Yizkor / JewishGen / Kovel memorial-book pass](#search-17---targeted-yizkor--jewishgen--kovel-memorial-book-pass)
+- [Search 18 - Source-driven deep web pass for external archives](#search-18---source-driven-deep-web-pass-for-external-archives)
+- [Search 19 - Aliyah-passport-first official-record strategy](#search-19---aliyah-passport-first-official-record-strategy)
+- [Search 20 - Follow-up source pass on Aliyah and Dukla records](#search-20---follow-up-source-pass-on-aliyah-and-dukla-records)
+- [Search 21 - Outreach sent to Kovel-related contacts](#search-21---outreach-sent-to-kovel-related-contacts)
+- [Search 22 - Family-cluster-only pass across Yizkor and Holocaust sources](#search-22---family-cluster-only-pass-across-yizkor-and-holocaust-sources)
+- [Search 25 - Dual-identity surname-bridge investigation](#search-25---dual-identity-surname-bridge-investigation)
+- [Search 26 - Historical surname-change analysis](#search-26---historical-surname-change-analysis)
+- [Search 27 - Strict Yad Vashem pass for Buxenbaum family from Kovel/Wolyn](#search-27---strict-yad-vashem-pass-for-buxenbaum-family-from-kovelwolyn)
+- [Yad Vashem Methodology Note](#yad-vashem-methodology-note)
+- [Search 28 - No-surname hidden-connection Yad Vashem pass](#search-28---no-surname-hidden-connection-yad-vashem-pass)
+- [Search 29 - Alternative databases high-confidence pass](#search-29---alternative-databases-high-confidence-pass)
+- [Search 31 - Internal Yad Vashem family-cluster hit: Boksenbojm in Kowel](#search-31---internal-yad-vashem-family-cluster-hit-boksenbojm-in-kowel)
+- [Search 30 - Archive submissions sent](#search-30---archive-submissions-sent)
+- [Search 32 - JHI reply and place-specific recheck](#search-32---jhi-reply-and-place-specific-recheck)
+- [Search Index](#search-index)
+- [Confirmed Facts About Sima](#confirmed-facts-about-sima)
+- [Key Local Evidence](#key-local-evidence)
+- [Identified People So Far](#identified-people-so-far)
+- [Low-Confidence Name Candidates](#low-confidence-name-candidates)
+- [Parent-Name Matrix](#parent-name-matrix)
+- [Strict Dukla Family Pass](#strict-dukla-family-pass)
+- [Yad Vashem Check](#yad-vashem-check)
+- [Search Variants For Future Work](#search-variants-for-future-work)
+- [Bottom Line](#bottom-line)
+
 ## Header Summary
 
 Search focus:
@@ -25,7 +72,7 @@ Update:
 - A high-confidence alternative-databases pass has now been added, with no confirmed Kovel family record found.
 - A confirmed `Boksenbojm` family branch in `Kowel` has now been identified through the internal Yad Vashem results UI, but it does not yet match Sima's immediate household.
 - Three new archive/contact submissions were sent on `2026-04-16`: `Mount Sinai`, `JHI`, and `JRI-Poland`.
-- `JHI` replied that no passport was found in the first pass and is now rechecking with `Kovel / Kowel` as the place anchor.
+- `JHI` completed a second, place-specific recheck and still found no passport for Sima in their holdings.
 
 ## Executive Summary
 
@@ -1371,6 +1418,33 @@ Why this matters:
 Current status:
 - `Waiting for JHI's second reply`
 
+### Search 33 - JHI final negative result
+
+Reply received:
+- `Archiwum ŻIH` replied again after the `Kovel / Kowel` clarification
+- they stated that they checked by:
+  - surname versions
+  - birth year
+  - birthplace
+- they still did **not** find Sima's passport in their collections
+
+What this means:
+- the `JHI / Polish Aliyah Passports` path is now a negative result
+- this is no longer just a weak public-search failure
+- it reflects a staff archivist check followed by a second, place-specific recheck
+
+What it does not prove:
+- it does not prove that Sima had no passport
+- it only shows that the passport was not found in `JHI` holdings under the searched identity variants
+
+Research consequence:
+- the center of gravity now shifts away from `JHI` as the likely source of the missing passport record
+- the strongest remaining active paths are:
+  1. `Mount Sinai` and the Los Angeles aunt
+  2. `JRI-Poland` reply / passport guidance
+  3. internal `Yad Vashem` family-cluster reconstruction in `Kowel`
+  4. `Kowel` family reconstruction through community and surname-branch evidence
+
 ## Search Index
 
 This section is meant to make the search history easy to follow.
@@ -1407,6 +1481,7 @@ This section is meant to make the search history easy to follow.
 | 31 | Yad Vashem | Internal `Boksenbojm` Kowel cluster | Confirmed surname branch in Kowel, but not yet Sima's immediate family |
 | 30 | Outreach | New archive submissions sent | Waiting for replies from Mount Sinai, JHI, and JRI-Poland |
 | 32 | Archive follow-up | JHI place-specific recheck | First pass negative; second pass now focused on `Kovel / Kowel` |
+| 33 | Archive follow-up | JHI final reply | No passport found after surname + birth year + birthplace recheck |
 
 ## Confirmed Facts About Sima
 

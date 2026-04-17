@@ -94,6 +94,11 @@ This is the master research log and includes:
 - [HOW_TO_CONTINUE_THIS_RESEARCH.txt](./HOW_TO_CONTINUE_THIS_RESEARCH.txt)
   - text version of the continuation guide
 
+- [TODO_ROADMAP.md](./TODO_ROADMAP.md)
+  - high-level summary of what was already done
+  - open problems
+  - practical roadmap for the next year
+
 ### Summary / sharing documents
 
 - [SIMA_BERMAN_FAMILY_SHARE.md](./SIMA_BERMAN_FAMILY_SHARE.md)

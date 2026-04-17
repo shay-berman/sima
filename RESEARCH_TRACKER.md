@@ -34,15 +34,15 @@ This file tracks outreach, archive requests, replies, and next follow-up actions
 | `kovel.site@gmail.com` | Email | `2026-04-15` | Waiting for reply | `2026-04-23` | Kovel-related outreach |
 | `JRI-Poland forum thread` | Forum post | `2026-04-15` | Waiting for reply | `2026-04-23` | `https://forum.jri-poland.org/t/genealogy-inquiry-buxenbaum-family-poland-1935-immigration/22104` |
 | `JRI-Poland contact form` | Contact form | `2026-04-16` | Waiting for reply | `2026-04-24` | Sent using submission from `ARCHIVE_SUBMISSIONS_READY.md` |
-| `JHI genealogy` | Email | `2026-04-16` | Waiting for reply | `2026-04-24` | Sent to `familyheritage@jhi.pl` |
-| `JHI archive` | Email (cc / related archive path) | `2026-04-16` | Waiting for reply | `2026-04-24` | Sent / cc'd to `archiwum@jhi.pl` |
+| `JHI genealogy` | Email | `2026-04-16` | Reply received - negative result | — | No passport found after surname + birth year + birthplace recheck |
+| `JHI archive` | Email (cc / related archive path) | `2026-04-16` | Reply received - negative result | — | No passport found after surname + birth year + birthplace recheck |
 | `Kovel / community records contact` | Not yet sent | — | Pending | Send next | Use Kovel submission text |
 | `Dukla / Zmigrod contact` | Not yet sent | — | Pending | Send next | Use Dukla submission text |
 
 ## Recommended Immediate Actions
 
 1. Wait for replies from `JRI-Poland`
-2. Wait for replies from `JHI`
+2. Treat `JHI` passport path as checked with negative result
 3. Send `Kovel / community records` request if not yet covered by current outreach
 4. Send `Dukla / Zmigrod` request
 
@@ -82,6 +82,29 @@ Use this section to paste or summarize every reply.
     - `Krakowski`
 - Next action:
   - wait for JHI's second, place-specific search result
+
+### 2026-04-17 - JHI / Archiwum ŻIH final follow-up
+
+- Date:
+  - Final reply received: `2026-04-17`
+- From:
+  - `Archiwum ŻIH`
+- Main information:
+  - They checked again using:
+    - surname versions
+    - birth year
+    - birthplace
+  - They still did **not** find Sima's passport in their collections.
+- New places:
+  - `Kovel / Kowel` was specifically used in the recheck.
+- New surnames:
+  - no new surname found
+- Next action:
+  - treat `JHI` passport path as a negative result
+  - shift focus to:
+    - `Mount Sinai`
+    - `JRI-Poland`
+    - `Kowel` family reconstruction
 
 ## Breakthrough Criteria
 
