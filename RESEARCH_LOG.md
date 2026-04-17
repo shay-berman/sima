@@ -1,4 +1,4 @@
-# Sima Berman Birth Family Research Backup
+# Sima Berman Research Log
 
 Date: 2026-04-14
 Time: 09:04 Asia/Jerusalem

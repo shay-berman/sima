@@ -1,6 +1,6 @@
 const allowedDocs = new Set([
   "README.md",
-  "SIMA_BERMAN_RESEARCH_BACKUP.md",
+  "RESEARCH_LOG.md",
   "RESEARCH_TRACKER.md",
   "ARCHIVE_ACTION_PLAN.md",
   "FINDINGS_OVERVIEW.md",
@@ -10,11 +10,12 @@ const allowedDocs = new Set([
   "SIMA_BERMAN_FAMILY_SHARE.md",
   "SIMA_BERMAN_FAMILY_SHARE_HE.md",
   "HOW_TO_CONTINUE_THIS_RESEARCH.md",
+  "TODO_ROADMAP.md",
 ]);
 
 const docCatalog = [
   { file: "README.md", label: "README" },
-  { file: "SIMA_BERMAN_RESEARCH_BACKUP.md", label: "Research Log" },
+  { file: "RESEARCH_LOG.md", label: "Research Log" },
   { file: "RESEARCH_TRACKER.md", label: "Tracker" },
   { file: "ARCHIVE_ACTION_PLAN.md", label: "Archive Action Plan" },
   { file: "ARCHIVE_SUBMISSIONS_READY.md", label: "Archive Submissions" },

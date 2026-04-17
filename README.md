@@ -46,7 +46,7 @@ The strongest current findings are:
 
 If you read only one file after this README, start with:
 
-- [SIMA_BERMAN_RESEARCH_BACKUP.md](./SIMA_BERMAN_RESEARCH_BACKUP.md)
+- [RESEARCH_LOG.md](./RESEARCH_LOG.md)
 
 This is the master research log and includes:
 - numbered searches
@@ -59,7 +59,7 @@ This is the master research log and includes:
 
 ### Core research log
 
-- [SIMA_BERMAN_RESEARCH_BACKUP.md](./SIMA_BERMAN_RESEARCH_BACKUP.md)
+- [RESEARCH_LOG.md](./RESEARCH_LOG.md)
   - full chronological research log
   - search index
   - evidence summaries
@@ -165,7 +165,8 @@ Sent outreach includes:
   - via official contact form
 
 Important current thread:
-- `JHI` replied and is now rechecking with `Kovel / Kowel` as the birthplace anchor
+- `JHI` completed a second recheck and did not find Sima's passport in their holdings
+- `JRI-Poland` acknowledged the inquiry and a substantive help-desk reply is still pending
 
 ## Contacted Archives and Websites
 
@@ -219,7 +220,7 @@ This repository should be treated as the main tracking location for the entire i
 
 Recommended workflow:
 
-1. log every search and result in [SIMA_BERMAN_RESEARCH_BACKUP.md](./SIMA_BERMAN_RESEARCH_BACKUP.md)
+1. log every search and result in [RESEARCH_LOG.md](./RESEARCH_LOG.md)
 2. log every new reply in [RESEARCH_TRACKER.md](./RESEARCH_TRACKER.md)
 3. update the archive plan if the search direction changes
 4. keep family-facing summaries separate from the detailed research log

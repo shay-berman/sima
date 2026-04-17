@@ -4,7 +4,7 @@ If this chat is lost, use this file to restart quickly.
 
 ## Main research files
 
-- [SIMA_BERMAN_RESEARCH_BACKUP.md](/home/shay/Downloads/shuaa/SIMA_BERMAN_RESEARCH_BACKUP.md)
+- [RESEARCH_LOG.md](/home/shay/git/sima/RESEARCH_LOG.md)
 - [SIMA_BERMAN_FAMILY_SHARE.md](/home/shay/Downloads/shuaa/SIMA_BERMAN_FAMILY_SHARE.md)
 - [SIMA_BERMAN_FAMILY_SHARE_HE.md](/home/shay/Downloads/shuaa/SIMA_BERMAN_FAMILY_SHARE_HE.md)
 

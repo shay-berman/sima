@@ -20,7 +20,7 @@ It is intended to serve as a high-level roadmap alongside the detailed research 
 - moved the research documentation into the repository
 - created a main `README.md` as the central entry point
 - created supporting documentation files:
-  - `SIMA_BERMAN_RESEARCH_BACKUP.md`
+  - `RESEARCH_LOG.md`
   - `RESEARCH_TRACKER.md`
   - `ARCHIVE_ACTION_PLAN.md`
   - `ARCHIVE_SUBMISSIONS_READY.md`
@@ -70,7 +70,8 @@ It is intended to serve as a high-level roadmap alongside the detailed research 
 
 ### Important breakthroughs
 
-- `JHI` replied and is rechecking using `Kovel / Kowel`
+- `JHI` completed a second recheck and still did not find Sima's passport in their holdings
+- `JRI-Poland` acknowledged the request and is still an open thread
 - internal Yad Vashem UI revealed a real `Boksenbojm` cluster in `Kowel`
 - this confirmed a real surname branch in the city, even though it is not yet proven as Sima's direct household
 
