@@ -73,6 +73,7 @@ Update:
 - A confirmed `Boksenbojm` family branch in `Kowel` has now been identified through the internal Yad Vashem results UI, but it does not yet match Sima's immediate household.
 - Three new archive/contact submissions were sent on `2026-04-16`: `Mount Sinai`, `JHI`, and `JRI-Poland`.
 - `JHI` completed a second, place-specific recheck and still found no passport for Sima in their holdings.
+- `JRI-Poland` sent an acknowledgement confirming that the request was received and routed to the help desk, but no substantive research reply has arrived yet.
 
 ## Executive Summary
 
@@ -1375,12 +1376,20 @@ Date sent:
 Targets:
 1. `Mount Sinai Memorial Parks`
    - `info@mountsinaiparks.org`
+   - `https://mountsinaiparks.org/`
+   - `https://mountsinaiparks.org/contact-us/`
 2. `Jewish Historical Institute`
    - `familyheritage@jhi.pl`
    - `archiwum@jhi.pl`
+   - `https://www.jhi.pl/en`
+   - `https://www.jhi.pl/en/genealogy/contact-us`
 3. `JRI-Poland`
    - submitted through official contact form:
      - `https://www.jri-poland.org/contact-us/`
+   - project page:
+     - `https://www.jri-poland.org/blog/polish-aliyah-passports/`
+   - search page:
+     - `https://www.jri-poland.org/jri-polish-aliyah-passports/`
 
 Purpose:
 - identify the surviving aunt in Los Angeles
@@ -1445,6 +1454,24 @@ Research consequence:
   3. internal `Yad Vashem` family-cluster reconstruction in `Kowel`
   4. `Kowel` family reconstruction through community and surname-branch evidence
 
+### Search 34 - JRI-Poland acknowledgement received
+
+Reply received:
+- `JRI-Poland` sent an automatic acknowledgement from `noreply@jri-poland.org`
+- the message confirmed that the inquiry was submitted successfully to the `Jri-Poland Help Desk`
+- it was routed to the `Non-Town primary contact`
+
+What this means:
+- the request is in the queue
+- this is not yet a substantive research result
+- the case remains open on the `JRI-Poland` side
+
+Instruction included in the acknowledgement:
+- if no reply is received within `2 weeks`, the note should be forwarded again as follow-up
+
+Current status:
+- `Waiting for substantive JRI-Poland reply`
+
 ## Search Index
 
 This section is meant to make the search history easy to follow.
@@ -1482,6 +1509,7 @@ This section is meant to make the search history easy to follow.
 | 30 | Outreach | New archive submissions sent | Waiting for replies from Mount Sinai, JHI, and JRI-Poland |
 | 32 | Archive follow-up | JHI place-specific recheck | First pass negative; second pass now focused on `Kovel / Kowel` |
 | 33 | Archive follow-up | JHI final reply | No passport found after surname + birth year + birthplace recheck |
+| 34 | Archive follow-up | JRI-Poland acknowledgement | Request received; waiting for substantive help-desk reply |
 
 ## Confirmed Facts About Sima
 

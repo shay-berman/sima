@@ -1,7 +1,9 @@
 const allowedDocs = new Set([
+  "README.md",
   "SIMA_BERMAN_RESEARCH_BACKUP.md",
   "RESEARCH_TRACKER.md",
   "ARCHIVE_ACTION_PLAN.md",
+  "FINDINGS_OVERVIEW.md",
   "ARCHIVE_SUBMISSIONS_READY.md",
   "READY_TO_SEND_EMAILS.md",
   "SIMA_PRE_IMMIGRATION_IDENTITY.md",
@@ -9,6 +11,23 @@ const allowedDocs = new Set([
   "SIMA_BERMAN_FAMILY_SHARE_HE.md",
   "HOW_TO_CONTINUE_THIS_RESEARCH.md",
 ]);
+
+const docCatalog = [
+  { file: "README.md", label: "README" },
+  { file: "SIMA_BERMAN_RESEARCH_BACKUP.md", label: "Research Log" },
+  { file: "RESEARCH_TRACKER.md", label: "Tracker" },
+  { file: "ARCHIVE_ACTION_PLAN.md", label: "Archive Action Plan" },
+  { file: "ARCHIVE_SUBMISSIONS_READY.md", label: "Archive Submissions" },
+  { file: "READY_TO_SEND_EMAILS.md", label: "Ready Emails" },
+  { file: "SIMA_PRE_IMMIGRATION_IDENTITY.md", label: "Pre-Immigration Identity" },
+  { file: "SIMA_BERMAN_FAMILY_SHARE.md", label: "Family Share (EN)" },
+  { file: "SIMA_BERMAN_FAMILY_SHARE_HE.md", label: "Family Share (HE)" },
+  { file: "HOW_TO_CONTINUE_THIS_RESEARCH.md", label: "How to Continue" },
+  { file: "TODO_ROADMAP.md", label: "TODO Roadmap" },
+  { file: "FINDINGS_OVERVIEW.md", label: "Findings Overview" },
+];
+
+const searchCache = new Map();
 
 function escapeHtml(text) {
   return text
@@ -173,3 +192,87 @@ async function loadDocs() {
 }
 
 loadDocs();
+
+async function fetchDocText(file) {
+  if (searchCache.has(file)) return searchCache.get(file);
+  const promise = fetch(`./${file}`)
+    .then((response) => {
+      if (!response.ok) throw new Error(`Failed to load ${file}`);
+      return response.text();
+    })
+    .catch(() => "");
+  searchCache.set(file, promise);
+  return promise;
+}
+
+function buildSnippet(text, query) {
+  const lowerText = text.toLowerCase();
+  const lowerQuery = query.toLowerCase();
+  const index = lowerText.indexOf(lowerQuery);
+  if (index === -1) return "";
+  const start = Math.max(0, index - 80);
+  const end = Math.min(text.length, index + query.length + 140);
+  return text.slice(start, end).replace(/\s+/g, " ").trim();
+}
+
+async function runSearch(query) {
+  const statusEl = document.getElementById("site-search-status");
+  const resultsEl = document.getElementById("site-search-results");
+  if (!statusEl || !resultsEl) return;
+
+  const trimmed = query.trim();
+  if (!trimmed) {
+    statusEl.textContent = "Enter a term to search across the repository documents.";
+    resultsEl.innerHTML = "";
+    return;
+  }
+
+  statusEl.textContent = `Searching for "${trimmed}"...`;
+  resultsEl.innerHTML = "";
+
+  const results = [];
+  for (const doc of docCatalog) {
+    const text = await fetchDocText(doc.file);
+    if (!text) continue;
+    if (text.toLowerCase().includes(trimmed.toLowerCase())) {
+      results.push({
+        ...doc,
+        snippet: buildSnippet(text, trimmed),
+      });
+    }
+  }
+
+  if (!results.length) {
+    statusEl.textContent = `No matches found for "${trimmed}".`;
+    return;
+  }
+
+  statusEl.textContent = `Found ${results.length} matching document${results.length === 1 ? "" : "s"} for "${trimmed}".`;
+  resultsEl.innerHTML = results
+    .map(
+      (result) => `
+        <article class="search-result">
+          <h3><a href="./docs.html?doc=${result.file}">${escapeHtml(result.label)}</a></h3>
+          <p>${escapeHtml(result.snippet || "Match found in this document.")}</p>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+const searchInput = document.getElementById("site-search-input");
+const searchButton = document.getElementById("site-search-button");
+
+if (searchInput && searchButton) {
+  const triggerSearch = () => runSearch(searchInput.value);
+  searchButton.addEventListener("click", triggerSearch);
+  searchInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      triggerSearch();
+    }
+  });
+  if (!document.getElementById("site-search-status")?.textContent) {
+    document.getElementById("site-search-status").textContent =
+      "Search names, places, archives, or surname variants across the repository.";
+  }
+}

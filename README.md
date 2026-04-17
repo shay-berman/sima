@@ -99,6 +99,10 @@ This is the master research log and includes:
   - open problems
   - practical roadmap for the next year
 
+- [FINDINGS_OVERVIEW.md](./FINDINGS_OVERVIEW.md)
+  - one-page consolidated findings table
+  - dates, status, relevance, and links to deeper documentation
+
 ### Summary / sharing documents
 
 - [SIMA_BERMAN_FAMILY_SHARE.md](./SIMA_BERMAN_FAMILY_SHARE.md)
@@ -162,6 +166,41 @@ Sent outreach includes:
 
 Important current thread:
 - `JHI` replied and is now rechecking with `Kovel / Kowel` as the birthplace anchor
+
+## Contacted Archives and Websites
+
+### Main archive contacts already used
+
+- `Mount Sinai Memorial Parks`
+  - website: `https://mountsinaiparks.org/`
+  - contact page: `https://mountsinaiparks.org/contact-us/`
+  - email: `info@mountsinaiparks.org`
+
+- `Jewish Historical Institute (JHI / ŻIH)`
+  - website: `https://www.jhi.pl/en`
+  - genealogy contact page: `https://www.jhi.pl/en/genealogy/contact-us`
+  - general contact page: `https://www.jhi.pl/en/contact`
+  - genealogy email: `familyheritage@jhi.pl`
+  - archive email: `archiwum@jhi.pl`
+
+- `JRI-Poland`
+  - website: `https://www.jri-poland.org/`
+  - contact form: `https://www.jri-poland.org/contact-us/`
+  - Polish Aliyah Passports project: `https://www.jri-poland.org/blog/polish-aliyah-passports/`
+  - passport search page: `https://www.jri-poland.org/jri-polish-aliyah-passports/`
+  - forum thread already posted: `https://forum.jri-poland.org/t/genealogy-inquiry-buxenbaum-family-poland-1935-immigration/22104`
+
+### Kovel-related outreach already used
+
+- `kovel.site@gmail.com`
+- `mali2109@gmail.com`
+- `shabo.pearlmuter@gmail.com`
+- `rub@netvision.net.il`
+- `shireshef@gmail.com`
+- `yaki@yaym.co.il`
+- `isr-weis@zahav.net.il`
+- `rachelziv94@gmail.com`
+- `navasag@gmail.com`
 
 ## Best Next Steps
 

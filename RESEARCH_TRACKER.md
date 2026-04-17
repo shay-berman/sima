@@ -19,6 +19,27 @@ This file tracks outreach, archive requests, replies, and next follow-up actions
 - Highest-value next archive:
   - `Polish Aliyah Passports`
 
+## Main Archive Links
+
+- `Mount Sinai Memorial Parks`
+  - website: `https://mountsinaiparks.org/`
+  - contact page: `https://mountsinaiparks.org/contact-us/`
+  - email: `info@mountsinaiparks.org`
+
+- `Jewish Historical Institute (JHI / ŻIH)`
+  - website: `https://www.jhi.pl/en`
+  - genealogy contact page: `https://www.jhi.pl/en/genealogy/contact-us`
+  - general contact page: `https://www.jhi.pl/en/contact`
+  - genealogy email: `familyheritage@jhi.pl`
+  - archive email: `archiwum@jhi.pl`
+
+- `JRI-Poland`
+  - website: `https://www.jri-poland.org/`
+  - contact form: `https://www.jri-poland.org/contact-us/`
+  - Polish Aliyah Passports page: `https://www.jri-poland.org/blog/polish-aliyah-passports/`
+  - passport search page: `https://www.jri-poland.org/jri-polish-aliyah-passports/`
+  - forum thread: `https://forum.jri-poland.org/t/genealogy-inquiry-buxenbaum-family-poland-1935-immigration/22104`
+
 ## Contact / Request Tracker
 
 | Contact / Archive | Channel | Date sent | Status | Next follow-up | Notes |
@@ -33,7 +54,7 @@ This file tracks outreach, archive requests, replies, and next follow-up actions
 | `navasag@gmail.com` | Email | `2026-04-15` | Waiting for reply | `2026-04-23` | Kovel-related outreach |
 | `kovel.site@gmail.com` | Email | `2026-04-15` | Waiting for reply | `2026-04-23` | Kovel-related outreach |
 | `JRI-Poland forum thread` | Forum post | `2026-04-15` | Waiting for reply | `2026-04-23` | `https://forum.jri-poland.org/t/genealogy-inquiry-buxenbaum-family-poland-1935-immigration/22104` |
-| `JRI-Poland contact form` | Contact form | `2026-04-16` | Waiting for reply | `2026-04-24` | Sent using submission from `ARCHIVE_SUBMISSIONS_READY.md` |
+| `JRI-Poland contact form` | Contact form | `2026-04-16` | Acknowledged / waiting for substantive reply | `2026-04-30` | Auto-confirmation received from `noreply@jri-poland.org`; follow up if no real reply within 2 weeks |
 | `JHI genealogy` | Email | `2026-04-16` | Reply received - negative result | — | No passport found after surname + birth year + birthplace recheck |
 | `JHI archive` | Email (cc / related archive path) | `2026-04-16` | Reply received - negative result | — | No passport found after surname + birth year + birthplace recheck |
 | `Kovel / community records contact` | Not yet sent | — | Pending | Send next | Use Kovel submission text |
@@ -105,6 +126,24 @@ Use this section to paste or summarize every reply.
     - `Mount Sinai`
     - `JRI-Poland`
     - `Kowel` family reconstruction
+
+### 2026-04-16 - JRI-Poland acknowledgement
+
+- Date:
+  - acknowledgement received: `2026-04-16`
+- From:
+  - `noreply@jri-poland.org`
+- Main information:
+  - the request was submitted successfully to the `Jri-Poland Help Desk`
+  - it was routed to the `Non-Town primary contact`
+  - this is an acknowledgement only, not a research result
+- New places:
+  - none
+- New surnames:
+  - none
+- Next action:
+  - wait for a substantive reply
+  - if no reply is received within `2 weeks`, follow up as instructed in the confirmation
 
 ## Breakthrough Criteria
 
