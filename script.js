@@ -51,6 +51,7 @@ function renderMarkdown(md) {
   let inList = false;
   let inCode = false;
   let inParagraph = false;
+  let inTable = false;
 
   function closeParagraph() {
     if (inParagraph) {
@@ -66,12 +67,34 @@ function renderMarkdown(md) {
     }
   }
 
-  for (const rawLine of lines) {
+  function closeTable() {
+    if (inTable) {
+      html += "</tbody></table></div>";
+      inTable = false;
+    }
+  }
+
+  function splitTableRow(line) {
+    const trimmed = line.trim().replace(/^\|/, "").replace(/\|$/, "");
+    return trimmed.split("|").map((cell) => inlineFormat(cell.trim()));
+  }
+
+  function isDividerRow(line) {
+    const trimmed = line.trim().replace(/^\|/, "").replace(/\|$/, "");
+    if (!trimmed) return false;
+    return trimmed
+      .split("|")
+      .every((part) => /^:?-{3,}:?$/.test(part.trim()));
+  }
+
+  for (let i = 0; i < lines.length; i += 1) {
+    const rawLine = lines[i];
     const line = rawLine.trimEnd();
 
     if (line.startsWith("```")) {
       closeParagraph();
       closeList();
+      closeTable();
       if (!inCode) {
         html += "<pre><code>";
         inCode = true;
@@ -90,6 +113,7 @@ function renderMarkdown(md) {
     if (!line.trim()) {
       closeParagraph();
       closeList();
+      closeTable();
       continue;
     }
 
@@ -97,13 +121,45 @@ function renderMarkdown(md) {
     if (heading) {
       closeParagraph();
       closeList();
+      closeTable();
       const level = heading[1].length;
       html += `<h${level}>${inlineFormat(heading[2])}</h${level}>`;
       continue;
     }
 
+    const nextLine = lines[i + 1]?.trimEnd() ?? "";
+    if (
+      line.includes("|") &&
+      nextLine.includes("|") &&
+      isDividerRow(nextLine)
+    ) {
+      closeParagraph();
+      closeList();
+      closeTable();
+      const headers = splitTableRow(line);
+      html += '<div class="table-wrap"><table class="markdown-table"><thead><tr>';
+      html += headers.map((cell) => `<th>${cell}</th>`).join("");
+      html += "</tr></thead><tbody>";
+      inTable = true;
+      i += 1;
+      continue;
+    }
+
+    if (inTable && isDividerRow(line)) {
+      continue;
+    }
+
+    if (inTable && line.includes("|")) {
+      const cells = splitTableRow(line);
+      html += "<tr>";
+      html += cells.map((cell) => `<td>${cell}</td>`).join("");
+      html += "</tr>";
+      continue;
+    }
+
     if (line.startsWith("- ") || line.startsWith("* ")) {
       closeParagraph();
+      closeTable();
       if (!inList) {
         html += "<ul>";
         inList = true;
@@ -115,6 +171,7 @@ function renderMarkdown(md) {
     const ordered = line.match(/^\d+\.\s+(.*)$/);
     if (ordered) {
       closeParagraph();
+      closeTable();
       if (!inList) {
         html += "<ul>";
         inList = true;
@@ -124,6 +181,7 @@ function renderMarkdown(md) {
     }
 
     closeList();
+    closeTable();
     if (!inParagraph) {
       html += "<p>";
       inParagraph = true;
@@ -135,6 +193,7 @@ function renderMarkdown(md) {
 
   closeParagraph();
   closeList();
+  closeTable();
   if (inCode) {
     html += "</code></pre>";
   }

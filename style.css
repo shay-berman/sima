@@ -348,12 +348,20 @@ a {
   padding: 0;
 }
 
-.markdown-body table {
+.table-wrap {
   width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-  display: block;
   overflow-x: auto;
+  margin: 1rem 0 1.4rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #fff;
+}
+
+.markdown-body table,
+.markdown-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
 }
 
 .markdown-body th,
@@ -361,6 +369,17 @@ a {
   border: 1px solid var(--border);
   padding: 0.6rem 0.7rem;
   text-align: left;
+  vertical-align: top;
+}
+
+.markdown-body th {
+  background: var(--surface-2);
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.markdown-body tbody tr:nth-child(even) {
+  background: #fcf8f2;
 }
 
 .markdown-body blockquote {
