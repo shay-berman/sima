@@ -122,22 +122,20 @@ function renderMarkdown(md) {
   return html;
 }
 
-async function loadDoc() {
-  const params = new URLSearchParams(window.location.search);
-  const doc = params.get("doc") || "README.md";
-  const titleEl = document.getElementById("doc-title");
-  const contentEl = document.getElementById("doc-content");
-  const rawLink = document.getElementById("raw-link");
-
+async function loadSingleDoc(doc, contentEl, titleEl, rawLink) {
   if (!allowedDocs.has(doc)) {
-    titleEl.textContent = "Document not available";
+    if (titleEl) titleEl.textContent = "Document not available";
     contentEl.innerHTML = "<p>This document is not available in the web viewer.</p>";
-    rawLink.hidden = true;
+    if (rawLink) rawLink.hidden = true;
     return;
   }
 
-  titleEl.textContent = doc.replace(/\.md$/, "").replaceAll("_", " ");
-  rawLink.href = `./${doc}`;
+  if (titleEl) {
+    titleEl.textContent = doc.replace(/\.md$/, "").replaceAll("_", " ");
+  }
+  if (rawLink) {
+    rawLink.href = `./${doc}`;
+  }
 
   try {
     const response = await fetch(`./${doc}`);
@@ -147,11 +145,31 @@ async function loadDoc() {
     const markdown = await response.text();
     contentEl.innerHTML = renderMarkdown(markdown);
   } catch (error) {
-    titleEl.textContent = "Load error";
+    if (titleEl) titleEl.textContent = "Load error";
     contentEl.innerHTML = `<p>${escapeHtml(error.message)}</p>`;
   }
 }
 
-if (document.getElementById("doc-content")) {
-  loadDoc();
+async function loadDocs() {
+  const singleContent = document.getElementById("doc-content");
+  if (singleContent) {
+    const params = new URLSearchParams(window.location.search);
+    const doc = params.get("doc") || "README.md";
+    await loadSingleDoc(
+      doc,
+      singleContent,
+      document.getElementById("doc-title"),
+      document.getElementById("raw-link"),
+    );
+  }
+
+  const multiDocNodes = document.querySelectorAll("[data-doc]");
+  for (const node of multiDocNodes) {
+    const doc = node.getAttribute("data-doc");
+    if (doc) {
+      await loadSingleDoc(doc, node);
+    }
+  }
 }
+
+loadDocs();

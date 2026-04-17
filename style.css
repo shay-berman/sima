@@ -175,6 +175,12 @@ a {
   color: var(--muted);
 }
 
+.family-layout {
+  display: grid;
+  gap: 1.25rem;
+  padding: 2rem 0 3rem;
+}
+
 .contact-card {
   margin-bottom: 2rem;
 }
