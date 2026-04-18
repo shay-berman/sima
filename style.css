@@ -94,7 +94,7 @@ a {
   font-size: clamp(2.5rem, 6vw, 5.5rem);
   line-height: 1.05;
   color: var(--accent-dark);
-  max-width: 11ch;
+  max-width: none;
 }
 
 .lede {
