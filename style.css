@@ -100,6 +100,13 @@ a {
   max-width: 11ch;
 }
 
+.hero-subtitle {
+  margin: 0.9rem 0 1rem;
+  font-size: clamp(1.05rem, 2vw, 1.45rem);
+  color: var(--accent);
+  letter-spacing: 0.02em;
+}
+
 .lede {
   max-width: 68ch;
   font-size: 1.15rem;
