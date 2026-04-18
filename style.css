@@ -78,7 +78,9 @@ a {
 .hero {
   padding: 4.5rem 0 2.5rem;
   min-height: calc(100vh - 88px);
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
 }
 
 .eyebrow {
