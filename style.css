@@ -30,7 +30,7 @@ a {
 }
 
 .wrap {
-  width: min(1100px, calc(100% - 2rem));
+  width: min(1380px, calc(100% - 2.5rem));
   margin: 0 auto;
 }
 
@@ -76,7 +76,12 @@ a {
 }
 
 .hero {
-  padding: 4rem 0 2rem;
+  padding: 4.5rem 0 2.5rem;
+  min-height: calc(100vh - 88px);
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+  gap: 2rem;
+  align-items: center;
 }
 
 .eyebrow {
@@ -89,15 +94,48 @@ a {
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(2.1rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 6vw, 5.5rem);
   line-height: 1.05;
   color: var(--accent-dark);
+  max-width: 11ch;
 }
 
 .lede {
-  max-width: 60ch;
+  max-width: 68ch;
   font-size: 1.15rem;
   color: var(--muted);
+}
+
+.hero-copy {
+  max-width: 860px;
+}
+
+.hero-side {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    linear-gradient(180deg, rgba(255, 253, 249, 0.96) 0%, rgba(241, 234, 223, 0.9) 100%);
+}
+
+.hero-side h2 {
+  margin-top: 0;
+  color: var(--accent-dark);
+}
+
+.hero-side ul {
+  margin-top: 0.75rem;
+}
+
+.hero-quote {
+  margin: 1.6rem 0 0;
+  padding: 1rem 1.2rem;
+  max-width: 52rem;
+  border-left: 4px solid var(--accent);
+  background: rgba(255, 253, 249, 0.72);
+  color: var(--accent-dark);
+  font-size: 1.05rem;
 }
 
 .hero-actions {
@@ -394,6 +432,17 @@ a {
   .grid.two,
   .doc-layout {
     grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding-top: 3rem;
+  }
+
+  .hero h1 {
+    max-width: none;
   }
 
   .doc-sidebar {
