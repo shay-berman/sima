@@ -223,6 +223,28 @@ a {
   margin-bottom: 2rem;
 }
 
+.image-feature {
+  margin-top: 0;
+}
+
+.featured-figure {
+  margin: 1.25rem 0 0;
+}
+
+.featured-figure img {
+  display: block;
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.featured-figure figcaption {
+  margin-top: 0.8rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .contact-list {
   list-style: none;
   padding: 0;
