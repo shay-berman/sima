@@ -153,6 +153,11 @@ a {
   padding: 1.25rem 1.35rem;
 }
 
+.highlight-card {
+  border-color: var(--accent);
+  border-left: 4px solid var(--accent);
+}
+
 .doc-card {
   display: block;
   padding: 1.15rem 1.2rem;

@@ -119,6 +119,34 @@ The single most useful thing we still need is:
 
 That would make it much easier to identify the family in Holocaust records.
 
+## Surviving Aunt — Los Angeles
+
+One of the most important open leads in this investigation is Sima's only known surviving aunt.
+
+What we know:
+- She survived the Holocaust
+- She later lived in **Los Angeles, California**
+- She had **no children**
+- She remained in contact with Sima until approximately **1980**
+- She may be memorialized at **Mount Sinai Memorial Park, Los Angeles — Wall Crypt 61165**
+- Her full name and identity have not yet been confirmed
+
+We are actively trying to identify her.
+
+If you knew her, knew of her, or are connected to her in any way through family, community, or the Los Angeles Jewish community, please get in touch.
+
+## The Last Letter — William Stillman
+
+A letter was sent to Sima informing her of her aunt's death. The sender is believed to be **William Stillman** of Los Angeles.
+
+What we know:
+- Name: **William Stillman**
+- Location: Los Angeles, California
+- He sent a letter to Sima about the passing of her surviving aunt
+- His exact relationship to the family — whether friend, neighbor, relative by marriage, or community contact — is not known
+
+We are trying to locate William Stillman or his descendants. Any information about him could help us identify the aunt and understand this branch of the family.
+
 ## Current Best Working Picture
 
 The best current reconstruction is:
