@@ -98,13 +98,14 @@ a {
 }
 
 .lede {
-  max-width: 68ch;
+  max-width: none;
   font-size: 1.15rem;
   color: var(--muted);
 }
 
 .hero-copy {
-  max-width: 1040px;
+  max-width: none;
+  width: 100%;
 }
 
 .hero-quote {
