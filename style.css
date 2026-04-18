@@ -96,7 +96,7 @@ a {
   font-size: clamp(2.8rem, 4.4vw, 4.8rem);
   line-height: 1.02;
   color: var(--accent-dark);
-  max-width: 16ch;
+  max-width: none;
 }
 
 .lede {
@@ -113,7 +113,7 @@ a {
 .hero-quote {
   margin: 1.6rem 0 0;
   padding: 1rem 1.2rem;
-  max-width: 52rem;
+  max-width: none;
   border-left: 4px solid var(--accent);
   background: rgba(255, 253, 249, 0.72);
   color: var(--accent-dark);
