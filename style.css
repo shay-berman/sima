@@ -483,8 +483,14 @@ a {
 }
 
 .doc-image-link {
-  display: inline-block;
+  display: block;
   max-width: 100%;
+}
+
+.doc-image-link img {
+  width: min(40%, 420px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 860px) {
