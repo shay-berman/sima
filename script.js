@@ -58,6 +58,7 @@ function renderMarkdown(md) {
   let inCode = false;
   let inParagraph = false;
   let inTable = false;
+  let inBlockquote = false;
 
   function closeParagraph() {
     if (inParagraph) {
@@ -77,6 +78,13 @@ function renderMarkdown(md) {
     if (inTable) {
       html += "</tbody></table></div>";
       inTable = false;
+    }
+  }
+
+  function closeBlockquote() {
+    if (inBlockquote) {
+      html += "</blockquote>";
+      inBlockquote = false;
     }
   }
 
@@ -101,6 +109,7 @@ function renderMarkdown(md) {
       closeParagraph();
       closeList();
       closeTable();
+      closeBlockquote();
       if (!inCode) {
         html += "<pre><code>";
         inCode = true;
@@ -120,6 +129,7 @@ function renderMarkdown(md) {
       closeParagraph();
       closeList();
       closeTable();
+      closeBlockquote();
       continue;
     }
 
@@ -128,8 +138,24 @@ function renderMarkdown(md) {
       closeParagraph();
       closeList();
       closeTable();
+      closeBlockquote();
       const level = heading[1].length;
       html += `<h${level}>${inlineFormat(heading[2])}</h${level}>`;
+      continue;
+    }
+
+    const quote = line.match(/^>\s?(.*)$/);
+    if (quote) {
+      closeParagraph();
+      closeList();
+      closeTable();
+      if (!inBlockquote) {
+        html += "<blockquote>";
+        inBlockquote = true;
+      } else {
+        html += " ";
+      }
+      html += inlineFormat(quote[1]);
       continue;
     }
 
@@ -142,6 +168,7 @@ function renderMarkdown(md) {
       closeParagraph();
       closeList();
       closeTable();
+      closeBlockquote();
       const headers = splitTableRow(line);
       html += '<div class="table-wrap"><table class="markdown-table"><thead><tr>';
       html += headers.map((cell) => `<th>${cell}</th>`).join("");
@@ -166,6 +193,7 @@ function renderMarkdown(md) {
     if (line.startsWith("- ") || line.startsWith("* ")) {
       closeParagraph();
       closeTable();
+      closeBlockquote();
       if (!inList) {
         html += "<ul>";
         inList = true;
@@ -178,6 +206,7 @@ function renderMarkdown(md) {
     if (ordered) {
       closeParagraph();
       closeTable();
+      closeBlockquote();
       if (!inList) {
         html += "<ul>";
         inList = true;
@@ -188,6 +217,7 @@ function renderMarkdown(md) {
 
     closeList();
     closeTable();
+    closeBlockquote();
     if (!inParagraph) {
       html += "<p>";
       inParagraph = true;
@@ -200,6 +230,7 @@ function renderMarkdown(md) {
   closeParagraph();
   closeList();
   closeTable();
+  closeBlockquote();
   if (inCode) {
     html += "</code></pre>";
   }
