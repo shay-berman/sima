@@ -17,6 +17,8 @@ This letter is one of the strongest surviving U.S. branch clues in the case.
 
 ## Envelope details
 
+![Original envelope](./assets/images/documents/william-stillman-envelope.png)
+
 - **Sender:** `William Stillman`
 - **Address:** `432 South Curson Avenue, Los Angeles, California 90036, U.S.A.`
 - **Postmark:** `22 FEB 1980`
@@ -25,6 +27,8 @@ This letter is one of the strongest surviving U.S. branch clues in the case.
 - **Country:** `Israel`
 
 ## Page 1
+
+![Letter page 1](./assets/images/documents/william-stillman-letter-page-1.png)
 
 **Date:** `2-21-80`
 
@@ -45,6 +49,8 @@ This letter is one of the strongest surviving U.S. branch clues in the case.
 
 ## Page 2
 
+![Letter page 2](./assets/images/documents/william-stillman-letter-page-2.png)
+
 **Translation:**
 
 > We want to tell you about what has been happening here lately.
@@ -63,6 +69,8 @@ This letter is one of the strongest surviving U.S. branch clues in the case.
 
 ## Page 3
 
+![Letter page 3](./assets/images/documents/william-stillman-letter-page-3.png)
+
 **Translation:**
 
 > We want you to know exactly where she is buried,
@@ -79,6 +87,8 @@ This letter is one of the strongest surviving U.S. branch clues in the case.
 > We will make sure that her memory is preserved.
 
 ## Page 4
+
+![Letter page 4](./assets/images/documents/william-stillman-letter-page-4.png)
 
 **Translation:**
 

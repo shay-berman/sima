@@ -222,6 +222,11 @@ a {
   background: #fff;
 }
 
+.aunt-figure img {
+  width: min(50%, 420px);
+  margin: 0 auto;
+}
+
 .featured-figure figcaption {
   margin-top: 0.8rem;
   color: var(--muted);
@@ -431,6 +436,16 @@ a {
   border-left: 4px solid var(--accent);
   color: var(--muted);
   background: #fbf7f1;
+}
+
+.markdown-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #fff;
 }
 
 @media (max-width: 860px) {
