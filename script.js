@@ -41,6 +41,10 @@ function escapeHtml(text) {
 
 function inlineFormat(text) {
   let out = escapeHtml(text);
+  out = out.replace(
+    /!\[([^\]]*)\]\(([^)]+)\)/g,
+    '<a class="doc-image-link" href="$2" target="_blank" rel="noreferrer"><img src="$2" alt="$1" /></a>',
+  );
   out = out.replace(/`([^`]+)`/g, "<code>$1</code>");
   out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
   out = out.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');

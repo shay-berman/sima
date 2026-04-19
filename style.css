@@ -482,6 +482,11 @@ a {
   background: #fff;
 }
 
+.doc-image-link {
+  display: inline-block;
+  max-width: 100%;
+}
+
 @media (max-width: 860px) {
   .grid.two,
   .doc-layout {
