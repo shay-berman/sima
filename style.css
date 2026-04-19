@@ -233,6 +233,40 @@ a {
   font-size: 0.95rem;
 }
 
+.photo-notes {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.photo-note {
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #fffaf4;
+}
+
+.photo-note h3 {
+  margin: 0 0 0.45rem;
+  color: var(--accent-dark);
+}
+
+.photo-note p {
+  margin: 0.45rem 0 0;
+}
+
+.photo-note blockquote {
+  margin: 0.8rem 0 0;
+  padding: 0.2rem 0 0.2rem 1rem;
+  border-left: 4px solid var(--accent);
+  color: var(--muted);
+}
+
+.photo-note-meta {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
 .contact-list {
   list-style: none;
   padding: 0;
