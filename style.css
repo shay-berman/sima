@@ -77,7 +77,8 @@ a {
 
 .hero {
   padding: 4.5rem 0 2.5rem;
-  min-height: calc(100vh - 88px);
+  height: auto;
+  min-height: unset;
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
